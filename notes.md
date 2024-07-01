@@ -21,3 +21,11 @@ function average(a, b) {
 let x = average(10, 20);
 ```
 in the code example, first the main() function would run, then the average() function is called, the average() function calls the add() function, and then once add() is completed it will move to average() then end at main();
+
+
+# Planning
+    -Does your program have a user interface? what does it look like? draw it.
+    -What inputs do we need to get the desired outputs
+    -what needs to happen in order to get the desired output (what are the steps neccessary)
+        -create algorithm in psuedocode
+    -does user enter data?
