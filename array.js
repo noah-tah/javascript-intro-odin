@@ -1,8 +1,15 @@
-// The splice() method adds new items to an array.
-// The slice() method slices out a piece of an array.
-
+alert("About to show intial state");
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 alert(fruits);
-const splicedItems = fruits.splice(2, 2, "Lemon", "Kiwi");
-alert(splicedItems);
+
+alert("About to begin modification");
+const fruitsSplicedOutput = fruits.splice(0,1);
+alert("Modification happened");
+
+alert("About to show splicedOutput");
+alert(fruitsSplicedOutput);
+
+alert("About to show final state of Array");
 alert(fruits);
+
+alert("Code finished");
