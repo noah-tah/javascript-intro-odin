@@ -1,10 +1,8 @@
-// const array_name = [item1, item2];
+// The splice() method adds new items to an array.
+// The slice() method slices out a piece of an array.
 
-const kids_array = ["Amelia", "Kai", "Jeremy", "Chandler"];
-
-console.log(kids_array);
-
-
-for (i in kids_array) {
-    console.log(kids_array[i]);
-}
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+alert(fruits);
+const splicedItems = fruits.splice(2, 2, "Lemon", "Kiwi");
+alert(splicedItems);
+alert(fruits);
