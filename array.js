@@ -1,15 +1,11 @@
 alert("About to show intial state");
-const fruits = ["Banana", "Orange", "Apple", "Mango"];
-alert(fruits);
-
+const months = ["Jan", "Feb", "Mar", "Apr"];
+alert(months);
 alert("About to begin modification");
-const fruitsSplicedOutput = fruits.splice(0,1);
+const spliced = months.toSpliced(1, 2);
 alert("Modification happened");
-
-alert("About to show splicedOutput");
-alert(fruitsSplicedOutput);
-
+alert("About to show the output of toSpliced()");
+alert(spliced);
 alert("About to show final state of Array");
-alert(fruits);
-
+alert(months);
 alert("Code finished");
